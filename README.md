@@ -14,7 +14,7 @@ Light repo: clean scene assets + compressed explosion turntable + contribution P
        controls>
 </video>
 
-**GIF Fallback (if video fails):**  
+
 ![Explosion GIF](assets/explosion_turntable_v01.gif)
 
 ## 📁 Files
