@@ -1,52 +1,41 @@
-# EVE Group Project – Asset & FX Snapshot
+# EVE – Asset & FX Snapshot
 
-Autodesk Maya + Houdini + Arnold academic project (props, cloth simulation, explosion & dust FX).  
-Lightweight repo: clean hero assets + compressed FX turntable + contribution PDF.
+Maya + Houdini + Arnold academic mini showcase (props, cloth sim, explosion FX).  
+Light repo: clean scene assets + compressed explosion turntable + contribution PDF.
 
-## 🔥 Explosion Preview
-<video src="assets/explosion_turntable_v01_comp.mp4" width="420" autoplay loop muted playsinline></video>
-*(If autoplay fails, click to play.)*
-
-## 📁 Contents
-| File / Dir | Description |
-|------------|-------------|
-| `assets/eve_assets_cellphone.ma` | Smartphone hero prop |
-| `assets/eve_curtain_asset_v01.ma` | Curtain (nCloth ready) |
-| `assets/eve_model_female.mb` | Unused base female model |
-| `assets/explosion_turntable_v01_comp.mp4` | Compressed Pyro turntable (Houdini → VDB → Arnold) |
-| `docs/eve_group_project_brief_flora.pdf` | Contribution / brief PDF |
-
-## 🧩 Role
-3D Modelling, nCloth setup, Houdini Pyro & dust → VDB → Arnold integration.
-
-## 🛠 Pipeline
-Maya → Houdini (Pyro / Dust) → VDB export → Arnold (volume + scene render).
-
-## ✅ Practices
-- Track only lightweight scenes & compressed media
-- Exclude raw simulations / large MOV / caches
-- Consistent lowercase `snake_case` naming
-
-## 🗺 Next
-- Add handgun model + turntable
-- Release dust VDB + shader notes
-- Character topology / wireframe sheet
-
-## 📄 PDF
-See: `docs/eve_group_project_brief_flora.pdf` for full contribution report.
-
-**Author:** Xiaohelaiti Feiluore (Flora) – GitHub: [Flora9822](https://github.com/Flora9822)
-
----
-
-## 🔁 Explosion Video (Fallback with Controls)
+## 🔥 Explosion (MP4 + GIF Fallback)
 
 <video src="assets/explosion_turntable_v01_comp.mp4"
-       width="420"
-       controls
+       width="400"
+       autoplay
        loop
        muted
-       playsinline>
+       playsinline
+       controls>
 </video>
 
-[▶ Direct MP4 Link](assets/explosion_turntable_v01_comp.mp4)
+**GIF Fallback (if video fails):**  
+![Explosion GIF](assets/explosion_turntable_v01.gif)
+
+## 📁 Files
+| Path | Brief |
+|------|-------|
+| `assets/eve_assets_cellphone.ma` | Smartphone prop |
+| `assets/eve_curtain_asset_v01.ma` | Curtain (nCloth ready) |
+| `assets/eve_model_female.mb` | Unused base character |
+| `assets/explosion_turntable_v01_comp.mp4` | Compressed FX (Houdini → VDB → Arnold) |
+| `docs/eve_group_project_brief_flora.pdf` | Contribution / role PDF |
+
+## 📄 Contribution PDF
+[Download / View PDF](docs/eve_group_project_brief_flora.pdf)
+
+## 🧩 My Role
+3D Modelling • nCloth setup • Houdini Pyro & dust → VDB → Arnold integration.
+
+## 🛠 Pipeline (1‑line)
+Maya (models / cloth) → Houdini (pyro + dust) → VDB → Arnold (volume shading) → ffmpeg compress.
+
+## 🗺 Next
+Handgun model · Dust VDB (Release) · Topology / wireframe sheet.
+
+**Author:** Xiaohelaiti Feiluore (Flora) — GitHub: [Flora9822](https://github.com/Flora9822)
