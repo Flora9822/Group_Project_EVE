@@ -29,7 +29,7 @@ Light repo: clean scene assets + compressed explosion turntable + contribution P
 ## 📄 Contribution PDF
 [Download / View PDF](docs/eve_group_project_brief_flora.pdf)
 
-## 🧩 My Role
+## 🧩 My Role (6-person team)
 3D Modelling • nCloth setup • Houdini Pyro & dust → VDB → Arnold integration.
 
 ## 🛠 Pipeline (1‑line)
