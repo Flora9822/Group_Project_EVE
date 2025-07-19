@@ -1,0 +1,13 @@
+
+*.mov
+*.ma~
+*.mb~
+*_autosave*.mb
+*.log
+autosave/
+renderData/
+images/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
