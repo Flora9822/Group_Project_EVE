@@ -36,3 +36,17 @@ Maya → Houdini (Pyro / Dust) → VDB export → Arnold (volume + scene render)
 See: `docs/eve_group_project_brief_flora.pdf` for full contribution report.
 
 **Author:** Xiaohelaiti Feiluore (Flora) – GitHub: [Flora9822](https://github.com/Flora9822)
+
+---
+
+## 🔁 Explosion Video (Fallback with Controls)
+
+<video src="assets/explosion_turntable_v01_comp.mp4"
+       width="420"
+       controls
+       loop
+       muted
+       playsinline>
+</video>
+
+[▶ Direct MP4 Link](assets/explosion_turntable_v01_comp.mp4)
